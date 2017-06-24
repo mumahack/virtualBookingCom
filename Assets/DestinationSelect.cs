@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DestinationSelect : MonoBehaviour {
 
-    public AudioClip changeNotification;
-    private AudioSource mainAudio;
+    private Component test;
 
 	// Use this for initialization
 	void Start () {
