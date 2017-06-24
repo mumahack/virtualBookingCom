@@ -18,7 +18,7 @@ public class DestinationSelect : MonoBehaviour {
 		
 	}
 
-    public void ButtonClicked()
+    public void ButtonClicked(string target)
     {
         Debug.Log("Ziel wurde ausgewählt!");
         SceneManager.LoadScene("FotosphereMono");
