@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1021077726716274}
+  m_IsPrefabParent: 1
+--- !u!1 &1021077726716274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4360970804710742}
+  - component: {fileID: 114383759526347540}
+  m_Layer: 0
+  m_Name: SelectionController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4360970804710742
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1021077726716274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0024381, y: 2.2435791, z: 0.0030140877}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114383759526347540
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1021077726716274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2620475ac7fc53f4384d4804a05584f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hotelselector: {fileID: 1551990433735682, guid: bd7a1a4d4a044c645a210c16e68e628c,
+    type: 2}
+  Foodselector: {fileID: 1393222696419100, guid: 234d0bfbdedb80f42a3ed32253fe080f,
+    type: 2}
+  Button3Selector: {fileID: 1520379142856738, guid: 5d61098e99a484748b2574a37590ad80,
+    type: 2}
+  defaultPosition: {x: -2, y: 2, z: 0}
+  defaultRotation: {x: 0, y: 0, z: 0, w: 0}

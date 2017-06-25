@@ -4,23 +4,21 @@ using UnityEngine;
 
 namespace VirtualBookingCom
 {
-    public class Item : MonoBehaviour
+    public class Item
     {
-        private static List<Item> allItems = new List<Item>();
-        private string title;
+        public static List<Item> allItems = new List<Item>();
+        public string title;
         public double price;
-        private string type;
-
-        // Use this for initialization
-        void Start()
+        public Option scene;
+        public string type;
+        
+        public Item(string title, double price, string type)
         {
-
+            this.title = title;
+            this.price = price;
+            this.type = type;
+            Item.allItems.Add(this);
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
     }
 }
